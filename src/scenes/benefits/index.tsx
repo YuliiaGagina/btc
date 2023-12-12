@@ -1,33 +1,9 @@
-import HText from '@/shared/HText'
-import BenefitsPageGraphic from '@/assets/BenefitsPageGraphic.png'
-import { BenefitTypes, SelectedPage } from '@/shared/types'
-import { AcademicCapIcon, HomeModernIcon, UserGroupIcon  } from '@heroicons/react/20/solid'
-import { motion } from 'framer-motion'
-import Benefit from './Benefit'
-import ActionButton from '@/shared/ActionButton'
+
+
+
 import search2 from '@/assets/search2.png'
 
 
-const benefits : Array<BenefitTypes>= [
-    {
-        icon: <HomeModernIcon className='h-6 w-6' />,
-        title: 'State of the Art Facilities',
-        description: "A gym is more than just a place to break a sweat its a vibrant microcosm of human ambition, determination, and transformation. It's a space where the echoes of clanking weights and rhythmic music merge with the rhythmic beats of heart-pounding workouts.",
-
-    },
-      {
-        icon: <UserGroupIcon className='h-6 w-6' />,
-        title: '100`s of Diverse Classes',
-        description: "A gym is more than just a place to break a sweat its a vibrant microcosm of human ambition, determination, and transformation. It's a space where the echoes of clanking weights and rhythmic music merge with the rhythmic beats of heart-pounding workouts.",
-
-    },
-        {
-        icon: <AcademicCapIcon className='h-6 w-6' />,
-        title: 'Expert and Pro Trainers',
-        description: "A gym is more than just a place to break a sweat its a vibrant microcosm of human ambition, determination, and transformation. It's a space where the echoes of clanking weights and rhythmic music merge with the rhythmic beats of heart-pounding workouts.",
-
-    }
-]
 
 // const container = {
 //     hidden: {},
@@ -36,11 +12,9 @@ const benefits : Array<BenefitTypes>= [
 //     }
 // }
 
-type Props = {
-   setSelectedPage: (value: SelectedPage) => void,
-}
 
-const Benefits = ({setSelectedPage}: Props) => {
+
+const Benefits = () => {
   return (
       <section id="benefits"
       className= ' bg-zinc-800  min-h-full w-6/6 py-20 '>

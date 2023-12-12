@@ -1,6 +1,3 @@
-import { SelectedPage } from "@/shared/types"
-import { motion } from "framer-motion"
-import AnchorLink from "react-anchor-link-smooth-scroll"
 
 // const chialdVariant = {
 //     hidden: { opacity: 0.5, scale: 0.9 },
